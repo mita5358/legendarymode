@@ -1,0 +1,1 @@
+execute as @e[type=giant,tag=helvius,tag=!helviusmod] run data merge entity @s {Tags:["helvius","helviusmod"],ArmorDropChances:[0.000F,1.000F,0.000F,1.000F]}
