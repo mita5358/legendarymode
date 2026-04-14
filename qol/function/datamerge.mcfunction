@@ -1,0 +1,22 @@
+execute if score @s damIn matches 0 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 0","color":"red"}}
+execute if score @s damIn matches 1 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 1","color":"red"}}
+execute if score @s damIn matches 2 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 2","color":"red"}}
+execute if score @s damIn matches 3 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 3","color":"red"}}
+execute if score @s damIn matches 4 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 4","color":"red"}}
+execute if score @s damIn matches 5 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 5","color":"red"}}
+execute if score @s damIn matches 6 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 6","color":"red"}}
+execute if score @s damIn matches 7 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 7","color":"red"}}
+execute if score @s damIn matches 8 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 8","color":"red"}}
+execute if score @s damIn matches 9 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 9","color":"red"}}
+execute if score @s damIn matches 10 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 10","color":"red"}}
+execute if score @s damIn matches 11 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 11","color":"red"}}
+execute if score @s damIn matches 12 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 12","color":"red"}}
+execute if score @s damIn matches 13 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 13","color":"red"}}
+execute if score @s damIn matches 14 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 14","color":"red"}}
+execute if score @s damIn matches 15 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 15","color":"red"}}
+execute if score @s damIn matches 16 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 16","color":"red"}}
+execute if score @s damIn matches 17 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 17","color":"red"}}
+execute if score @s damIn matches 18 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 18","color":"red"}}
+execute if score @s damIn matches 19 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 19","color":"red"}}
+execute if score @s damIn matches 20 as @s on passengers run data merge entity @s {CustomName:{"text":"♥ 20","color":"red"}}
+execute if score @s damIn matches 21.. as @s run function qol:datamergeextend

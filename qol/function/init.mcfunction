@@ -1,0 +1,16 @@
+scoreboard objectives add durabilitysub dummy
+scoreboard objectives add durability dummy
+scoreboard objectives add maxdurability dummy
+scoreboard objectives add multiplier dummy
+scoreboard objectives add damIn dummy
+scoreboard objectives add fuse dummy
+scoreboard objectives add playtime minecraft.custom:minecraft.play_time
+scoreboard objectives add playtimeS dummy
+scoreboard objectives add playtimeM dummy
+scoreboard objectives add playtimeH dummy
+scoreboard objectives add playtimeD dummy
+scoreboard objectives add kit minecraft.custom:minecraft.play_time
+scoreboard objectives add dragonegg minecraft.killed:minecraft.ender_dragon
+scoreboard objectives add dragoneggT dummy
+scoreboard objectives add deathtime deathCount
+scoreboard objectives add deathtimer dummy
