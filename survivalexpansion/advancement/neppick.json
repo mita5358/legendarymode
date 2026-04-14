@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "neppick": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_pickaxe",
+          "components": {
+            "minecraft:item_model": "minecraft:neppick"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "neppick"
+    ]
+  ],
+  "rewards": {
+    "function": "survivalexpansion:bedmine"
+  }
+}

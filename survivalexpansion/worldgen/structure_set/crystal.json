@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "survivalexpansion:crystal",
+      "weight": 1
+    },
+    {
+      "structure": "survivalexpansion:crystal2",
+      "weight": 1
+    },
+    {
+      "structure": "survivalexpansion:crystal3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1877790675,
+    "exclusion_zone": {
+      "other_set": "survivalexpansion:havenigloo",
+      "chunk_count": 2
+    },
+    "spacing": 2,
+    "separation": 0
+  }
+}

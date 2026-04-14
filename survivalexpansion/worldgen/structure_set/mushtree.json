@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "survivalexpansion:mushtree1",
+      "weight": 1
+    },
+    {
+      "structure": "survivalexpansion:mushtree2",
+      "weight": 1
+    },
+    {
+      "structure": "survivalexpansion:mushtree3",
+      "weight": 1
+    },
+    {
+      "structure": "survivalexpansion:mushtree4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 171195558,
+    "spacing": 3,
+    "separation": 2
+  }
+}

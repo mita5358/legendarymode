@@ -1,0 +1,38 @@
+{
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "custom:thevoidloop",
+        "range": 1
+      }
+    },
+    "minecraft:visual/sky_color": 0,
+    "minecraft:visual/sunrise_sunset_color": 0,
+    "minecraft:visual/sky_light_color": 0,
+    "minecraft:visual/cloud_height": -13,
+    "minecraft:visual/fog_color": 0,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:mycelium"
+        },
+        "probability": 0.01
+      }
+    ]
+  },
+  "temperature": 1,
+  "downfall": 0,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "water_color": 0,
+    "grass_color": 0,
+    "foliage_color": 0,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": "minecraft:canyon",
+  "features": [],
+  "has_precipitation": false
+}

@@ -1,0 +1,56 @@
+{
+  "temperature": 0.4,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "frozen",
+  "creature_spawn_probability": 0.1,
+  "effects": {
+    "sky_color": 2059775,
+    "fog_color": 6422527,
+    "water_color": 8732633,
+    "water_fog_color": 329011,
+    "grass_color": 65518,
+    "foliage_color": 4390911,
+    "grass_color_modifier": "none",
+    "ambient_sound": {
+      "sound_id": "custom:havenlands"
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vex",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": "minecraft:canyon",
+  "features": [
+    [
+      "minecraft:patch_grass_forest",
+      "minecraft:flower_forest_flowers",
+      "minecraft:trees_savanna"
+    ]
+  ]
+}
