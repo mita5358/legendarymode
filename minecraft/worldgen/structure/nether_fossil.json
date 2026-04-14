@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:nether_fossil",
+  "biomes": [
+    "survivalexpansion:crimson_dreadlands",
+    "survivalexpansion:withered_plains",
+    "minecraft:soul_sand_valley",
+    "survivalexpansion:the_dreadlands"
+  ],
+  "step": "underground_decoration",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 32
+    },
+    "max_inclusive": {
+      "below_top": 2
+    }
+  }
+}
