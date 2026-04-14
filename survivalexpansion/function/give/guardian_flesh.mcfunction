@@ -1,0 +1,1 @@
+give @p knowledge_book[custom_name='{"color":"red","italic":false,"text":"Guardian\'s Flesh"}',item_model="guardflesh"] 1

@@ -1,0 +1,1 @@
+give @s emerald[item_model="ancientjewel",custom_name='{"color":"yellow","italic":false,"text":"Ancient Jewel"}',enchantment_glint_override=true] 1

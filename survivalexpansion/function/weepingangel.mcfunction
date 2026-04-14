@@ -1,0 +1,5 @@
+execute if score stray_count Stray matches 0 run summon stray ~ ~ ~ {Silent:1b,Invulnerable:1b,DeathLootTable:"null",Team:"neptune_no_nametag",Health:30f,Tags:["weeping_angel"],CustomName:'{"text":"Weeping Angel"}',ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;297912466,274614739,-1316817711,2134341701],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBkODA2ZjE5YTc1MjZmYzZmYTQ4ZjQyZjcwM2I5MGFkZDgxNDJkYWM3ZjM3YWQxYmUxYjRlZGNhYzViYTgzIn19fQ=="}]}}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],attributes:[{id:"minecraft:generic.attack_damage",base:1000},{id:"minecraft:generic.follow_range",base:120},{id:"minecraft:generic.max_health",base:30},{id:"minecraft:generic.movement_speed",base:0.33148837208}]}
+execute if score stray_count Stray matches 0 run tp @s ~ ~-256 ~
+tag @s add not_weeping_angel
+scoreboard players add stray_count Stray 1
+execute if score stray_count Stray matches 5 run scoreboard players set stray_count Stray 0

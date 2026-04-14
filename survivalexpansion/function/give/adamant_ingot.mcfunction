@@ -1,0 +1,1 @@
+give @s iron_ingot[item_model="adamantingot",custom_name='{"color":"yellow","italic":false,"text":"Adamant Ingot"}',enchantment_glint_override=true] 1

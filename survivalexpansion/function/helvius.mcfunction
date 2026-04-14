@@ -1,0 +1,15 @@
+execute as @e[tag=SummonHim2] at @s run playsound music.dragon ambient @a[distance=..100] ~ ~ ~ 9999999 1
+time set 18000
+gamerule advance_time false
+execute as @e[tag=SummonHim2] at @s run setblock ~2 ~2 ~2 blue_ice
+execute as @e[tag=SummonHim2] at @s run setblock ~-2 ~2 ~-2 blue_ice
+execute as @e[tag=SummonHim2] at @s run setblock ~-2 ~2 ~2 blue_ice
+execute as @e[tag=SummonHim2] at @s run setblock ~2 ~2 ~-2 blue_ice
+execute as @e[tag=SummonHim2] at @s run playsound minecraft:entity.zombie.ambient ambient @a[distance=..100] ~ ~ ~ 15 0
+execute as @e[tag=SummonHim2] at @s run playsound minecraft:entity.generic.explode ambient @a[distance=..100] ~ ~ ~ 15 1
+execute as @e[tag=SummonHim2] at @s run playsound entity.wither.spawn ambient @a[distance=..100] ~ ~ ~ 15 0
+execute as @e[tag=SummonHim2] at @s run particle explosion_emitter
+execute as @e[tag=SummonHim2] at @s run kill @e[tag=elemental2]
+execute as @e[tag=SummonHim2] at @s run summon giant ~ ~5 ~ {HasVisualFire:1b,CustomNameVisible:0b,Team:"helvius",PersistenceRequired:1b,Health:1000f,Tags:["helvius"],CustomName:"helvius",equipment:{feet:{id:"minecraft:netherite_boots",count:1,components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:snout"}}},legs:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_name":{"color":"red","italic":false,"text":"The Dread Blade"},"minecraft:lore":[{"color":"gray","italic":false,"text":"Bleeding I"}],"minecraft:unbreakable":{},"minecraft:enchantments":{"minecraft:fire_aspect":2,"minecraft:knockback":3,"minecraft:looting":5,"minecraft:sweeping_edge":3},"minecraft:attribute_modifiers":[{id:"minecraft:1",type:"movement_speed",amount:0.1d,operation:"add_value"},{id:"minecraft:2",type:"attack_damage",amount:20d,operation:"add_value"}]}},chest:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:dune"}}},head:{id:"minecraft:flint_and_steel",count:1,components:{"minecraft:item_model":"titanflame","minecraft:can_place_on":[{blocks:"netherrack"}],"minecraft:custom_name":{"color":"red","italic":false,"text":"Titan's Flame"},"minecraft:unbreakable":{},"minecraft:tooltip_display":{hidden_components:["unbreakable"]},"minecraft:enchantment_glint_override":true}}},drop_chances:{feet:0.000,legs:0.000,chest:0.000,head:1.000},active_effects:[{id:"minecraft:fire_resistance",amplifier:1,duration:9999999,show_particles:0b},{id:"minecraft:water_breathing",amplifier:1,duration:9999999,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:1000}]}
+execute as @e[tag=SummonHim2] at @s run summon vindicator ~ ~ ~ {Silent:1b,Invulnerable:1b,Team:"helvius",PersistenceRequired:1b,CustomName:"Helvius, The Dreadlord",active_effects:[{id:"minecraft:resistance",amplifier:5,duration:999999,show_particles:0b},{id:"minecraft:invisibility",amplifier:1,duration:999999,show_particles:0b}],attributes:[{id:"minecraft:attack_damage",base:20},{id:"minecraft:follow_range",base:10000},{id:"minecraft:movement_speed",base:0.4}]}
+kill @e[type=armor_stand,tag=SummonHim2]

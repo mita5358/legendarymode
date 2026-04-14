@@ -1,0 +1,1 @@
+give @p flint_and_steel[can_place_on=[{blocks:"netherrack"}],custom_name={"color":"red","italic":false,"text":"Titan's Flame"},unbreakable={},tooltip_display={hidden_components:["unbreakable"]},item_model="titanflame",enchantment_glint_override=true] 1

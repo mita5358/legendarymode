@@ -1,0 +1,1 @@
+give @s clock[consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false},item_model="chronoshard",item_name='{"color":"black","italic":false,"shadow_color":-1,"text":"Chronoshard"}',damage_resistant={types:"#minecraft:is_fire"}] 1

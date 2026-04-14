@@ -1,0 +1,1 @@
+give @s purple_dye[item_model="ancientgemstone",custom_name='{"color":"yellow","italic":false,"text":"Ancient Gemstone"}',enchantment_glint_override=true] 1

@@ -1,0 +1,1 @@
+give @p ghast_tear[custom_name='{"color":"dark_purple","italic":false,"text":"Angel\'s Tear"}',item_model="angeltear",enchantment_glint_override=true] 1

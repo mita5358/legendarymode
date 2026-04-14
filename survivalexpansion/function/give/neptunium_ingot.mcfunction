@@ -1,0 +1,1 @@
+give @p iron_ingot[custom_name='{"color":"red","italic":false,"text":"Neptunium Ingot"}',item_model="nepingot",enchantment_glint_override=true] 1

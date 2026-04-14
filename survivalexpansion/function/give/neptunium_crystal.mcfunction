@@ -1,0 +1,1 @@
+give @p amethyst_shard[custom_name='{"color":"dark_purple","italic":false,"text":"Neptunium Crystal"}',item_model="nepcrystal",enchantments={"minecraft:protection":1},tooltip_display={hidden_components:["unbreakable"]}] 1

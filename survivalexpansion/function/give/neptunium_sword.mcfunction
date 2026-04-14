@@ -1,0 +1,1 @@
+give @p netherite_sword[custom_name='{"color":"dark_purple","italic":false,"text":"Neptunium Sword"}',unbreakable={},item_model="nepsword",enchantments={"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":5,"minecraft:sharpness":10}] 1

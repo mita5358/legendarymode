@@ -1,0 +1,1 @@
+give @p netherite_pickaxe[item_model="minecraft:neppick",enchantments={"minecraft:efficiency":6,"minecraft:fortune":5},unbreakable={},custom_name={"color":"dark_purple","italic":false,"text":"Neptunium Pickaxe"},consumable={consume_seconds:1000000.0f,animation:"none",has_consume_particles:false}] 1

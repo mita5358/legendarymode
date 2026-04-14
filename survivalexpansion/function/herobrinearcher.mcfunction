@@ -1,0 +1,8 @@
+function survivalexpansion:lightning2
+summon skeleton 13 1 13 {Team:"neptune_no_nametag",Tags:["alreadymodskeleton"],CustomName:"Herobrine's Archer",equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"minecraft:power":3,"minecraft:punch":6}}}},drop_chances:{mainhand:0.000},attributes:[{id:"minecraft:follow_range",base:1000},{id:"minecraft:max_health",base:50}]}
+summon skeleton -13 1 -13 {Team:"neptune_no_nametag",Tags:["alreadymodskeleton"],CustomName:"Herobrine's Archer",equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"minecraft:power":3,"minecraft:punch":6}}}},drop_chances:{mainhand:0.000},attributes:[{id:"minecraft:follow_range",base:1000},{id:"minecraft:max_health",base:50}]}
+summon skeleton 13 1 -13 {Team:"neptune_no_nametag",Tags:["alreadymodskeleton"],CustomName:"Herobrine's Archer",equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"minecraft:power":3,"minecraft:punch":6}}}},drop_chances:{mainhand:0.000},attributes:[{id:"minecraft:follow_range",base:1000},{id:"minecraft:max_health",base:50}]}
+summon skeleton -13 1 13 {Team:"neptune_no_nametag",Tags:["alreadymodskeleton"],CustomName:"Herobrine's Archer",equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"minecraft:power":3,"minecraft:punch":6}}}},drop_chances:{mainhand:0.000},attributes:[{id:"minecraft:follow_range",base:1000},{id:"minecraft:max_health",base:50}]}
+summon lightning_bolt -13 1 13
+summon lightning_bolt -13 1 -13
+summon lightning_bolt 13 1 13

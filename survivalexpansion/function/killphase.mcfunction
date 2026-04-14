@@ -1,0 +1,5 @@
+kill @e[type=zombie]
+kill @e[type=evoker]
+kill @e[type=ravager]
+kill @e[type=skeleton]
+kill @e[type=vex]

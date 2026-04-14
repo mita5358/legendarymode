@@ -1,0 +1,1 @@
+give @p bone[custom_name='{"color":"red","italic":false,"text":"Angel\'s Bone"}',item_model="angelbone",enchantment_glint_override=true] 1

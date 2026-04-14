@@ -1,0 +1,1 @@
+give @s blaze_powder[custom_name='{"color":"dark_purple","italic":false,"text":"Neptunium Essence"}',item_model="nepessence",enchantments={"minecraft:fire_aspect":1},tooltip_display={hidden_components:["enchantments"]}] 1
