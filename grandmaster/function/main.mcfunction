@@ -142,14 +142,14 @@ kill @e[tag=EnderKill]
 
 # ==================== Events ====================
 # Pandemic
-execute if score Timer Time matches 1000 store result score Timer prng run random value 1..10 
-execute if score Timer prng matches 1 run function grandmaster:pandemic
-execute if score Timer Time matches 1000 run scoreboard players reset Timer prng
-execute if score Timer PandemicE matches 1 run function grandmaster:pandemic
+#execute if score Timer Time matches 1000 store result score Timer prng run random value 1..10 
+#execute if score Timer prng matches 1 run function grandmaster:pandemic
+#execute if score Timer Time matches 1000 run scoreboard players reset Timer prng
+#execute if score Timer PandemicE matches 1 run function grandmaster:pandemic
 
 # [优化] 修正选择器和执行源
-execute if score Timer PandemicT matches 1.. as @a[nbt={SleepTimer:100s}] unless score @s Dragonkilled2 matches 1.. run scoreboard players add Timer PandemicT 6000
-execute if score Timer PandemicT matches 1.. as @a[nbt={SleepTimer:100s}] if score @s Dragonkilled2 matches 1.. run scoreboard players add Timer PandemicT 12000
+#execute if score Timer PandemicT matches 1.. as @a[nbt={SleepTimer:100s}] unless score @s Dragonkilled2 matches 1.. run scoreboard players add Timer PandemicT 6000
+#execute if score Timer PandemicT matches 1.. as @a[nbt={SleepTimer:100s}] if score @s Dragonkilled2 matches 1.. run scoreboard players add Timer PandemicT 12000
 
 # Random Raids
 execute if score Timer Time matches 1000 store result score Timer rrng run random value 1..18
