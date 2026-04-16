@@ -1,6 +1,6 @@
-execute in minecraft:the_end if score Timer Endgametimer matches 180..240 run particle minecraft:portal 0 80 0 2 2 2 10 100 normal
-execute in minecraft:the_end if score Timer Endgametimer matches 180 run playsound block.bell.resonate ambient @a[tag=dragonaggro] 0 80 0 99999 0
-execute in minecraft:the_end if score Timer Endgametimer matches 280 run particle minecraft:explosion_emitter 0 80 0 2 2 2 0 10 normal
-execute in minecraft:the_end if score Timer Endgametimer matches 280 run playsound minecraft:entity.generic.explode ambient @a[tag=dragonaggro] 0 80 0 999999 0
-execute in minecraft:the_end if score Timer Endgametimer matches 280 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[tag=dragonaggro] 0 80 0 999999 2
-execute in minecraft:the_end if score Timer Endgametimer matches 280 run summon item 0 80 0 {Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_name":{"color":"dark_purple","italic":false,"text":"Neptunium Sword"},"minecraft:unbreakable":{},"minecraft:item_model":"nepsword","minecraft:enchantments":{"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":5,"minecraft:sharpness":10}}}}
+execute if score Timer Endgametimer matches 180..240 in minecraft:the_end positioned 0 80 0 run particle minecraft:portal ~ ~ ~ 2 2 2 10 100 normal
+execute if score Timer Endgametimer matches 180 in minecraft:the_end positioned 0 80 0 run playsound block.bell.resonate ambient @a[tag=dragonaggro] ~ ~ ~ 99999 0
+execute if score Timer Endgametimer matches 280 in minecraft:the_end positioned 0 80 0 run particle minecraft:explosion_emitter ~ ~ ~ 2 2 2 0 10 normal
+execute if score Timer Endgametimer matches 280 in minecraft:the_end positioned 0 80 0 run playsound minecraft:entity.generic.explode ambient @a[tag=dragonaggro] ~ ~ ~ 999999 0
+execute if score Timer Endgametimer matches 280 in minecraft:the_end positioned 0 80 0 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[tag=dragonaggro] ~ ~ ~ 999999 2
+execute if score Timer Endgametimer matches 280 in minecraft:the_end positioned 0 80 0 run summon item ~ ~ ~ {Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_name":'{"color":"dark_purple","italic":false,"text":"Neptunium Sword"}',"minecraft:unbreakable":{},"minecraft:item_model":"nepsword","minecraft:enchantments":{"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":5,"minecraft:sharpness":10}}}}
