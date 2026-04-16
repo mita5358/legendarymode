@@ -56,7 +56,7 @@ execute if score Timer WitherSpecial4 matches 817.. run scoreboard players reset
 execute in minecraft:the_end as @a[distance=0..700,tag=!dragonaggro] at @s run tag @s add dragonaggro
 
 # [优化] 移除 @a 循环判定，龙的攻击只执行一次
-execute if score Timer EndDragon matches 1000 as @e[type=ender_dragon] run execute at @a[tag=dragonaggro] run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"portal"},Radius:20f,Duration:80,potion_contents:{potion:"minecraft:harming"},CustomName:'{"color":"dark_purple","text":"Dragon\\'s Wrath"}'}
+execute if score Timer EndDragon matches 1000 as @e[type=ender_dragon] run execute at @a[tag=dragonaggro] run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"portal"},Radius:20f,Duration:80,potion_contents:{potion:"minecraft:harming"},CustomName:'{"color":"dark_purple","text":"Dragons Wrath"}'}
 execute if score Timer EndDragon matches 1000 as @e[type=ender_dragon] at @s run playsound entity.ender_dragon.ambient ambient @a[tag=dragonaggro] ~ ~ ~ 999999 0
 execute if score Timer EndDragon matches 1000 as @e[type=ender_dragon] at @s run playsound minecraft:entity.lightning_bolt.thunder ambient @a[tag=dragonaggro] ~ ~ ~ 9999999 0
 execute if score Timer EndDragon matches 1000.. run scoreboard players reset Timer EndDragon
