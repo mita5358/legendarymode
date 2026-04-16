@@ -115,6 +115,7 @@ execute if score Timer Time matches 12000 run scoreboard players reset Timer irn
 execute if score Timer Insomniac matches 1 run function grandmaster:insomnia
 
 
+
 # ================== Mob Buffs ==================
 # [究极优化] 绝对不能用 @e[tag=!noeffect]！改用实体群组标签，或者指定类型，防止扫描掉落物和矿车。
 # 请在数据包的 tags/entity_types/ 下新建一个 hostile.json，把所有怪物加进去，然后使用 type=#grandmaster:hostile。
